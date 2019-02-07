@@ -1,0 +1,348 @@
+body{
+    background-image:url("../img/banner_bg.jpg");
+}
+
+.tinker-color{
+    color: rgb(255, 194, 80);
+}
+.navbar-brand{
+    color:white;
+    text-transform: uppercase;
+}
+#navbarSupportedContent{
+    color:white;
+}
+#navbarSupportedContent{
+	float:right;
+}
+header{
+    margin:0 15%;
+ }
+ .jc-sb{
+    justify-content: space-between;
+ }
+/****************************SECTIONS****************************************************/
+#section-1{
+    padding:200px 0;
+    background-attachment: fixed;
+    color:white;
+    text-align: center;
+}
+#section-1 h2 .htmlcolor{
+    color: rgb(76, 172, 189);
+}
+#section-1 h2 .tinkercolor{
+    color: rgb(231, 131, 48);
+}
+
+#section-2 h2{
+    font-size: 20px;
+}
+#section-2{
+    padding:200px 0;
+    background-image:url("../img/about-bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color:white;
+    font-size: 12px;
+    text-align: center;
+}
+#section-3{
+	padding:0px 0;
+}
+#section-5{
+    padding:0px 0;
+    background-image:url("../img/blog-bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color:white;
+    font-size: 12px;
+    text-align: center;
+}
+#section-6 h2{
+	text-transform: uppercase;
+}
+#section-6{
+	text-align: center;
+	color: white;
+	background-color: rgb(109, 107, 107);
+	padding: 100px;
+}
+/***********************************MENU BLEU ET MENU NOIR***************************************************************/
+#main {
+	margin:auto;
+	position: relative;
+	}
+	#menu  {
+	width:400px;
+	height:860px ;
+	text-align: left;
+	padding: 80px;
+	position: absolute;
+	background-color:rgba(77, 249, 255, 0.836);
+	color: white;
+	border-top: 1px solid rgb(189, 0, 0); 
+	}
+	
+	#menu li, a {
+		color: white;
+		list-style-type: none; 
+		text-decoration: none;
+	}
+	
+
+	#contenu {
+	margin-left:400px;
+	background-color:rgb(255, 251, 248);
+	}
+#contenu img{
+		max-width:400px;
+		padding: 30px 30px;
+	}
+	.trait{
+		border-top: solid 1px white;
+		padding: 20px;
+	}
+	.s6text{
+			text-align: center;
+			margin: 30px 35%;
+			width: 30%;
+			color:white;
+	}
+	
+/*****************NOIR******************/
+	#main2 {
+		
+		margin:auto;
+		position: relative;
+		}
+		#menu2 h2{
+			text-transform: uppercase;
+			text-align: center;
+		}
+		#menu2  {
+		width:700px;
+		height:600px ;
+		padding: 150px;
+		padding-right: 200px;
+		position: absolute;
+		background-color:rgba(0, 0, 0, .5);
+		color: white;
+		text-align:left;
+		
+		}
+		#menu2 a{
+			color: #fdcb6e;
+	
+		}
+		
+		#contenu2 {
+		margin-left:700px;
+		min-height:600px;
+		overflow: hidden;
+		/* background-color:rgba(255, 251, 248, .5);			pour mieu voir, à enlever plus tard */
+		color: black;
+		}
+		
+		.photo{
+			padding: 30px;
+			margin-right: 600px;
+		}
+	
+		.imgport{
+			max-width: 70%;
+		}
+		.fondtext{
+			background-color: white;
+			padding: 30px;
+			width: 770px;
+		}
+/*********************BOUTON***********************************/
+ .btn{
+     background-color: rgb(81, 206, 223);
+     border-radius: 20px; 
+	 text-transform: uppercase;
+	 color: white;
+
+ }
+ .btn1{
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+.btn2{
+	background-color: #ffffff;
+	padding:12px 30px;
+	color:rgb(0, 0, 0);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight:bold;
+	display:inline-block;
+	margin:10px;
+	margin-left: 50px;
+}
+/*********************MENU ROND JAUNE**********************************************/
+ 
+ span.cloche{
+	background-color: rgb(245, 203, 89);
+	color: white;
+	height:100px;
+	width:100px;					/*faire le carre rouge dans popular post*/
+	display:inline-block; 
+	text-align: center;			/*alligner le 1 au milieu*/
+	line-height:26px;
+	font-weight:700;             /*Mettre en gras*/ 
+	border-radius:50%;			/*transformer le carre en rond*/ 
+	border: solid 2px white;
+	position: absolute;
+	top:-130px;
+    left:85px;
+    
+}
+span.coeur{
+	background-color: rgb(245, 203, 89);
+	color: white;
+	height:100px;
+	width:100px;					/*faire le carre rouge dans popular post*/
+	display:inline-block; 
+	text-align: center;			/*alligner le 1 au milieu*/
+	line-height:26px;
+	font-weight:700;             /*Mettre en gras*/ 
+	border-radius:50%;			/*transformer le carre en rond*/ 
+	border: solid 2px white;
+	position: absolute;
+	top:-130px;
+    left:85px;
+    
+}
+span.horloge{
+	background-color: rgb(245, 203, 89);
+	color: white;
+	height:100px;
+	width:100px;					/*faire le carre rouge dans popular post*/
+	display:inline-block; 
+	text-align: center;			/*alligner le 1 au milieu*/
+	line-height:26px;
+	font-weight:700;             /*Mettre en gras*/ 
+	border-radius:50%;			/*transformer le carre en rond*/ 
+	border: solid 2px white;
+	position: absolute;
+	top:-130px;
+    left:85px;
+    
+}
+span.engrenage{
+	background-color: rgb(245, 203, 89);
+	color: white;
+	height:100px;
+	width:100px;					/*faire le carre rouge dans popular post*/
+	display:inline-block; 
+	text-align: center;			/*alligner le 1 au milieu*/
+	line-height:26px;
+	font-weight:700;             /*Mettre en gras*/ 
+	border-radius:50%;			/*transformer le carre en rond*/ 
+	border: solid 2px white;
+	position: absolute;
+	top:-130px;
+    left:85px;
+    
+}
+.icon1{
+    margin: 20px 0px 0px 0px;
+}
+/***************************CAROUSEL*******************************************/
+.carousel{
+	
+	height: 500px;
+	overflow: hidden;
+	background-color:#fdcb6e;
+}
+.section-4{
+	text-align: center;
+	color: white;
+	
+	padding: 95px 150px 250px 150px;
+}
+.blockquote-1{
+	text-align: center;
+	background-color: #fff;
+	color:gray;
+	margin-left:35%;
+	padding:30px;
+	width: 30%;
+}
+/*********************FOOTER***************************************************/
+
+#footer{
+    background-color: #373a3b;
+    color: white;
+    height: 200px;
+}
+
+#footer h1{
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+#footer h1 span,
+#footer p span{
+    color: #f6c45c;
+    font-weight: 900;
+}
+#footer p{
+    font-size: 12px;
+}
+#footer .row div.pad{
+    padding: 25px 10px;
+}
+
+#footer .location{
+    padding: 25px 10px;
+}
+#footer .location h3{
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#footer .location .foot-center p{
+    font-size: 12px;
+}
+#footer .foot-center div{
+    padding-top: 30px;
+}
+.no-pad{
+    padding-right: 10px;
+}
+.trait3{
+    border-left: 1px solid white;
+    padding-left: 20px;
+}
+#footer .info{
+    padding: 25px 10px;
+}
+#footer .info h3{
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#footer .info .more-info div{
+    padding-top: 20px;
+}
+#footer .info .more-info div p{
+    padding: 0 auto;;
+    margin: 0;
+}
+#footer #gras{
+    font-weight: 900;
+    color: white;
+}
+
+.get-social h3{
+    padding-bottom: 30px;
+}
+
+.get-social a{
+    color: white;
+    padding: 0 5px;
+}
+#footer .get-social h3{
+	font-size: 15px;
+}
